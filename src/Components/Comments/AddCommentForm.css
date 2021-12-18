@@ -1,0 +1,27 @@
+/*comment input*/
+
+#comment-input {
+  border-radius: 0.5rem;
+  border: 1px solid #f8edeb;
+}
+
+#comment-input:focus {
+  border: 1px solid #f8edeb;
+  box-shadow: none;
+}
+
+#comment-input:hover {
+  background-color: #f8edeb;
+}
+
+#root > div > div > div > div > div > form > div > button {
+  background-color: #f8edeb;
+  border: 1px solid #f8edeb;
+  border-radius: 0.5rem;
+  color: #2f2f2f;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,73 @@
+#card-style-detail > div > h5 {
+  text-align: center;
+}
+
+#card-style-detail > img {
+  object-fit: cover;
+  height: 33rem;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  transition: transform 0.2s; /* Animation */
+}
+
+#card-style-detail {
+  border: none;
+  color: black;
+  position: relative;
+  text-align: center;
+  padding: 1rem;
+}
+
+#card-style-detail:hover {
+  opacity: 0.9rem;
+}
+
+#card-style-detail > img:hover {
+  transform: scale(1.01);
+}
+
+#card-style-detail > span.badge {
+  position: absolute;
+  right: 0.5rem;
+  top: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  background-color: #f8edeb !important;
+}
+
+#root > div > div > div:nth-child(3) > div.d-flex.justify-content-start.flex-column.mt-4.col-md-6 > div.mt-5.row > div > form > div.d-flex.justify-content-end > button {
+  color: black;
+}
+
+#root > div > div > div:nth-child(3) > div.d-flex.justify-content-start.flex-column.mt-4.col-md-6 > div.mt-5.row > div > form > div.d-flex.justify-content-end > button:hover {
+  background-color: #f8edeb;
+}
+
+#card-style-detail2 {
+  border: none;
+  background-color: #fefdf8 !important;
+}
+
+/*heart-icon*/
+
+#heart-icon:hover {
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+#heart-icon-fill:hover {
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+#cart-icon:hover {
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+#cart-icon-fill:hover {
+  width: 1.5rem;
+  cursor: pointer;
+}

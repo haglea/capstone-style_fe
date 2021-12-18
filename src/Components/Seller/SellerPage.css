@@ -1,0 +1,38 @@
+/*back button*/
+
+#additem-button {
+  color: black;
+}
+
+#additem-button {
+  background-color: #fefdf8 !important;
+  border-color: #fefdf8;
+}
+
+#additem-button:focus {
+  box-shadow: none !important;
+}
+
+#additem-button:hover {
+  background-color: #f8edeb !important;
+}
+
+/*sellerpage button*/
+
+#sellerpage-button {
+  color: black;
+  background-color: #fec5bb !important;
+  border-color: #fec5bb !important;
+}
+
+#sellerpage-button:hover {
+  opacity: 0.8;
+}
+
+#sellerpage-button:focus {
+  box-shadow: none !important;
+}
+
+#sellerpage-button > a {
+  color: black !important;
+}

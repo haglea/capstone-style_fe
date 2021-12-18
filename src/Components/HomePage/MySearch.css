@@ -1,0 +1,68 @@
+#formGridSearch {
+  border: 1px solid #f8edeb;
+  color: black !important;
+}
+
+#formGridSearch:hover {
+  background-color: #f8edeb !important;
+  border: 1px solid #f8edeb;
+}
+
+#formGridSearch:focus {
+  border: 1px solid #f8edeb;
+  box-shadow: none !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+#exampleForm\.SelectCustom {
+  border: 1px solid #f8edeb !important;
+}
+
+#exampleForm\.SelectCustom:hover {
+  border: 1px solid #f8edeb;
+  background-color: #f8edeb !important;
+}
+
+#exampleForm\.SelectCustom:focus {
+  border: 1px solid #f8edeb !important;
+  box-shadow: none !important;
+  background-color: #f8edeb !important;
+}
+
+select > option {
+  background: white;
+}
+option:not(:checked) {
+  background: white;
+}
+
+select:focus > option:checked {
+  box-shadow: 0 0 10px 100px #f8edeb inset;
+}
+
+#search-button {
+  border: 1px solid #f8edeb;
+  border-radius: 5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+#search-button:hover {
+  background-color: #f8edeb !important;
+  color: black;
+  box-shadow: none !important;
+}
+
+#search-button:focus {
+  box-shadow: none !important;
+}
+
+#empty-div {
+  height: 5rem;
+}

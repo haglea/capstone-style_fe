@@ -1,0 +1,82 @@
+#ourteam-container {
+  position: relative;
+}
+
+#ourteam-card {
+  border: none;
+  padding: 1rem;
+}
+
+#ourteam-card > div > img:hover {
+  transform: scale(1.01);
+}
+
+#ourteam-card > div > img {
+  height: 500px;
+  object-fit: cover;
+  border-radius: 2rem;
+  margin: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  transition: transform 0.2s; /* Animation */
+}
+
+#ourteam-card2 {
+  border: none;
+  background: #f8edeb;
+  -moz-box-shadow: 0 0 2rem #ccc;
+  -webkit-box-shadow: 0 0 2rem #ccc;
+  box-shadow: 0 0 2rem #ccc;
+  padding: 1rem;
+  margin-top: 5rem;
+}
+
+#ourteam-card2 > div > p > a {
+  padding: 1rem;
+  color: black;
+  text-decoration: none;
+}
+
+#ourteam-card2 > div > p:nth-child(5) > a > svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+#ourteam-button {
+  color: black;
+  background-color: #fec5bb !important;
+  border-color: #fec5bb;
+}
+
+#ourteam-button:hover {
+  opacity: 0.8;
+}
+
+#ourteam-button:focus {
+  box-shadow: none !important;
+}
+
+#ourteam-button > a {
+  color: black !important;
+}
+
+#ourteam-emptydiv {
+  height: 9rem;
+}
+
+.alert-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.alert-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.alert-exit {
+  opacity: 1;
+}
+.alert-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}

@@ -1,0 +1,18 @@
+/*back button*/
+
+#itemdetail-button {
+  color: black;
+}
+
+#itemdetail-button {
+  background-color: #fefdf8 !important;
+  border-color: #fefdf8;
+}
+
+#itemdetail-button:focus {
+  box-shadow: none !important;
+}
+
+#itemdetail-button:hover {
+  background-color: #f8edeb !important;
+}

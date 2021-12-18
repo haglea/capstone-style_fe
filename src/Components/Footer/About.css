@@ -1,0 +1,26 @@
+#about-card {
+  border-color: transparent;
+  width: 35rem;
+  margin: auto;
+}
+
+#about-card:hover {
+  background: #f8edeb;
+}
+
+#aboutus-button {
+  background-color: #fec5bb !important;
+  border-color: #fec5bb;
+}
+
+#aboutus-button:focus {
+  box-shadow: none !important;
+}
+
+#aboutus-button:hover {
+  opacity: 0.8;
+}
+
+#aboutus-button {
+  color: black !important;
+}

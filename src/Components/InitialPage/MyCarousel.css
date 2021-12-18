@@ -1,0 +1,91 @@
+#carousel-styling {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+#carousel-styling > div > div > div > div > img {
+  height: 300px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 1rem !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#carousel-styling > div > div > div > div > div {
+  position: relative;
+}
+
+#carousel-styling > div > div > div > div > div > p:nth-child(1) {
+  position: absolute;
+
+  bottom: 3rem;
+  left: 2rem;
+  color: #000000 !important;
+  background-color: #fefdf8 !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  width: 30%;
+  border-radius: 0.3rem;
+}
+
+#carousel-styling > div > div > div > div > div > p:nth-child(2) {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: #000000 !important;
+  background-color: #fefdf8 !important;
+  width: 50%;
+  border-radius: 0.3rem;
+}
+
+/* prev/next icons */
+
+#carousel-styling > a.carousel-control-prev {
+  position: relative;
+}
+
+#carousel-styling > a.carousel-control-prev > span.carousel-control-prev-icon {
+  position: absolute;
+  left: -6rem;
+  bottom: 12rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  border: 1px solid #fefdf8;
+  background-color: #fefdf8;
+  border-radius: 2rem;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='-1 -2 12 12'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+#carousel-styling > a.carousel-control-next {
+  position: relative;
+}
+
+#carousel-styling > a.carousel-control-next > span.carousel-control-next-icon {
+  position: absolute;
+  left: 74rem;
+  bottom: 13rem;
+  background-color: #fefdf8 !important;
+  width: 2.2rem;
+  height: 2.2rem;
+  border: 1px solid #fefdf8;
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='-2 -2 12 12'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+/*spinner*/
+
+#spinner-style {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1rem;
+  height: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+#carousel-styling > div > div > div > div {
+  position: relative;
+  height: 100%;
+}

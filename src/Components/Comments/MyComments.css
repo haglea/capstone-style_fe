@@ -1,0 +1,6 @@
+.list-group-item {
+  border-radius: 1rem;
+  background-color: #fefdf8 !important;
+  margin: 1rem 0;
+  text-align: start;
+}

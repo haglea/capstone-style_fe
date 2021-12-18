@@ -1,0 +1,97 @@
+#login-form-modal > div > div > div > input[type="email"] {
+  display: block;
+  width: 70%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#login-form-modal > div > div > div > input[type="email"]:hover {
+  background-color: #f8edeb !important;
+}
+
+#login-form-modal > div > div > div > input[type="password"] {
+  display: block;
+  width: 70%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#login-form-modal > div > div > div > input[type="password"]:hover {
+  background-color: #f8edeb !important;
+}
+
+#login-form-modal > div.mb-2 > label > a {
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+#login-form-modal > div:nth-child(4) {
+  display: table;
+  margin-bottom: 0.5rem;
+}
+#staySignedIn {
+  display: table-cell;
+  vertical-align: middle;
+  margin-bottom: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+#login-form-modal > div > span {
+  font-size: 0.9rem;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#login-form-modal > div:nth-child(5) > div > label {
+  font-size: 0.9rem;
+}
+
+#login-form-modal > div:nth-child(5) > div > label > a {
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+#login-form-modal > div:nth-child(5) > button.mb-1.mr-3 {
+  border-radius: 0.5rem;
+  border: 1px solid #ced4da;
+}
+
+#login-form-modal > div:nth-child(5) > button.mb-1.mr-3:hover {
+  background-color: #f8edeb !important;
+  color: #495057;
+}
+
+#login-form-modal > div:nth-child(5) > button.mb-1 {
+  border-radius: 0.5rem;
+  border: 1px solid #ced4da;
+}
+
+#login-form-modal > div:nth-child(5) > button.mb-1:hover {
+  background-color: #f8edeb !important;
+  color: #495057;
+}

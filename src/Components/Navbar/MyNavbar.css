@@ -1,0 +1,44 @@
+#navbar-style {
+  background-color: #ffffff;
+}
+
+#navbar-logo {
+  width: 5rem;
+  opacity: 0.6;
+}
+
+#navbar-style > div > h5 > span.m-2.p-2.badge.rounded-pill.bg-primary {
+  background-color: #fefdf8 !important;
+}
+
+#navbar-style > div > h5 > span.m-2.p-2.badge.rounded-pill.bg-transparent {
+  border: 1px solid #fefdf8;
+  opacity: 0.6;
+}
+
+#navbar-style > div > h5 > span.m-2.p-2.badge.rounded-pill.bg-primary:hover {
+  background-color: #f8edeb !important;
+  cursor: pointer;
+}
+
+#navbar-style
+  > div
+  > h5
+  > span.m-2.p-2.badge.rounded-pill.bg-transparent:hover {
+  background-color: #f8edeb !important;
+  opacity: 1;
+  cursor: pointer;
+}
+
+#navbar-style > div > div > h5 > span {
+  background-color: #fefdf8 !important;
+}
+
+#navbar-style
+  > div
+  > div
+  > h5
+  > span.m-2.p-2.badge.rounded-pill.bg-primary:hover {
+  background-color: #f8edeb !important;
+  cursor: pointer;
+}

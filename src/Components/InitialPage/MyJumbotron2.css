@@ -1,0 +1,18 @@
+#jumbotron2 > div > div > div > h2 {
+  color: rgb(9, 9, 9) !important;
+  text-align: center;
+  background-color: white;
+}
+
+#jumbotron2 > div > div > div > h2 > a > strong {
+  color: rgb(9, 9, 9) !important;
+  background-color: #f8edeb;
+}
+
+#jumbotron2 > div > div > div > h2 > a > strong:hover {
+  background-color: #f8edeb;
+}
+
+#jumbotron2 > div {
+  background-color: white !important;
+}

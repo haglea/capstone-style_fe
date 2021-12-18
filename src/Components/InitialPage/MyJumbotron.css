@@ -1,0 +1,9 @@
+#jumbotron {
+  background-color: white;
+  background: linear-gradient(0deg, rgb(255, 255, 255) 0%, #fefdf8 29%);
+}
+#jumbotron > div > div:nth-child(3) > div > p {
+  font-size: 1rem;
+  color: rgb(77, 77, 77);
+  text-align: center;
+}

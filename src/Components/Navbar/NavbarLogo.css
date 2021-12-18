@@ -1,0 +1,32 @@
+#navbarwithlogo {
+  background-color: #ffffff !important;
+  align-items: center !important;
+}
+
+#navbarlogo {
+  width: 5rem;
+  opacity: 0.6;
+}
+
+#navbarlogo:hover {
+  opacity: 0.5;
+}
+
+#favourites-link > svg:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+#navbarwithlogo > div > h5 > span {
+  color: black;
+  background-color: #fefdf8 !important;
+}
+
+#navbarwithlogo > div > h5 > span:hover {
+  background-color: #f8edeb !important;
+  cursor: pointer;
+}
+
+#navbarwithlogo > div > h5 > a > svg:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

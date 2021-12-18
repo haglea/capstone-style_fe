@@ -1,0 +1,38 @@
+#item-card:hover {
+  opacity: 0.9;
+}
+
+#item-card > a > img:hover {
+  transform: scale(1.01);
+}
+
+#item-card > div > div {
+  font-size: 0.8rem;
+}
+
+#item-card {
+  border: none;
+  color: black;
+  position: relative;
+  text-align: center;
+}
+
+#item-card > a > img {
+  object-fit: cover;
+  height: 210px;
+  width: 200px;
+  margin-top: 1rem;
+  transition: transform 0.2s; /* Animation */
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#item-card > span {
+  position: absolute;
+  right: 0.5rem;
+  top: 2rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: black;
+  background-color: #f8edeb !important;
+}
