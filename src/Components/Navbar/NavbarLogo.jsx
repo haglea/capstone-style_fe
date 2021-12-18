@@ -8,7 +8,7 @@ import { logout } from "../../redux/actions/authActions";
 const NavbarLogo = ({ auth, logout }) => {
   const navigate = useNavigate();
   const handleLogout = async () => {
-    const url = `${process.env.REACT_APP_DEV_URL}users/logout`;
+    const url = `${process.env.REACT_APP_PROD_URL}users/logout`;
     await logout(url);
     navigate("/");
   };

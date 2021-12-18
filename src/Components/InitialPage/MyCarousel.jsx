@@ -10,7 +10,7 @@ const MyCarousel = () => {
 
   useEffect(() => {
     async function fetchData() {
-      const url = `${process.env.REACT_APP_DEV_URL}items?limit=20`;
+      const url = `${process.env.REACT_APP_PROD_URL}items?limit=20`;
       await dispatch(fetchItems(url));
     }
     fetchData();

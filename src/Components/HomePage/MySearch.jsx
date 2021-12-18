@@ -15,7 +15,7 @@ const MySearch = () => {
 
   useEffect(() => {
     async function fetchData() {
-      const url = `${process.env.REACT_APP_DEV_URL}items?limit=20`;
+      const url = `${process.env.REACT_APP_PROD_URL}items?limit=20`;
       setLoading(true);
       await dispatch(fetchItems(url));
       setLoading(false);
@@ -26,7 +26,7 @@ const MySearch = () => {
   const handleSearch = async (e) => {
     e.preventDefault();
     setLoading(true);
-    const url = `${process.env.REACT_APP_DEV_URL}items?item_name=/^${search}/i&category=${category}&limit=20`;
+    const url = `${process.env.REACT_APP_PROD_URL}items?item_name=/^${search}/i&category=${category}&limit=20`;
     await dispatch(fetchItems(url));
     setLoading(false);
   };

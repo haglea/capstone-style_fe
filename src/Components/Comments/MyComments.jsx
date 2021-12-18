@@ -11,7 +11,7 @@ const MyComments = ({ auth, item, comments, getComments, addComment }) => {
 
   const submit = async (values) => {
     setIsLoading(true);
-    const url = `${process.env.REACT_APP_DEV_URL}items/${item._id}/comments`;
+    const url = `${process.env.REACT_APP_PROD_URL}items/${item._id}/comments`;
     if (auth.user.userId) {
       await addComment(
         url,
@@ -32,7 +32,7 @@ const MyComments = ({ auth, item, comments, getComments, addComment }) => {
   useEffect(() => {
     const fetchComments = async () => {
       setIsLoading(true);
-      let url = `${process.env.REACT_APP_DEV_URL}items/${item._id}/comments`;
+      let url = `${process.env.REACT_PROD_PROD_URL}items/${item._id}/comments`;
       await getComments(url);
       setIsLoading(false);
     };

@@ -28,7 +28,7 @@ const SellerPage = ({ auth, addItem, addImage }) => {
 
   const submit = async (values) => {
     setIsLoading(true);
-    const url = `${process.env.REACT_APP_DEV_URL}items`;
+    const url = `${process.env.REACT_APP_PROD_URL}items`;
     if (auth.user._id) {
       const user = auth.user._id;
       await addItem(
@@ -57,7 +57,7 @@ const SellerPage = ({ auth, addItem, addImage }) => {
       if (values.image) {
         const formData = new FormData();
         formData.append("image", values.image);
-        const url = `${process.env.REACT_APP_DEV_URL}items/${itemID}`;
+        const url = `${process.env.REACT_APP_PROD_URL}items/${itemID}`;
         await addImage(url, formData);
         setIsLoading(false);
         const currentItem = localStorage.getItem("newItem");

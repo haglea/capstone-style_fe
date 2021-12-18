@@ -15,7 +15,7 @@ const MyNavbar = ({ auth, loginUser }) => {
   const navigate = useNavigate();
 
   const submit = async (values) => {
-    const url = `${process.env.REACT_APP_DEV_URL}users/login`;
+    const url = `${process.env.REACT_APP_PROD_URL}users/login`;
     await loginUser(url, values.email, values.password);   
     handleClose();
     navigate("/home");
