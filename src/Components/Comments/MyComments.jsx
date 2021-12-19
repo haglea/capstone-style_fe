@@ -32,7 +32,7 @@ const MyComments = ({ auth, item, comments, getComments, addComment }) => {
   useEffect(() => {
     const fetchComments = async () => {
       setIsLoading(true);
-      let url = `${process.env.REACT_PROD_PROD_URL}items/${item._id}/comments`;
+      let url = `${process.env.REACT_PROD_URL}items/${item._id}/comments`;
       await getComments(url);
       setIsLoading(false);
     };
@@ -47,6 +47,9 @@ const MyComments = ({ auth, item, comments, getComments, addComment }) => {
       <ListGroup className="mb-3">
         {comments ? (
           comments.comments
+            .sort((a, b) =>
+              compareDesc(parseISO(a.updatedAt), parseISO(b.updatedAt))
+            )
             .map((comment) => (
               <ListGroup.Item key={comment._id}>
                 {comment.comment}{" "}
