@@ -30,7 +30,7 @@ const OurTeam = () => {
               className="my-2"
             >
               <Card.Body>
-                <Card.Img variant="top" src="./profile_picture_Lea.jpg" />
+                <Card.Img variant="top" src={process.env.PUBLIC_URL + "/profile_picture_Lea.jpg"} />
               </Card.Body>
             </Card>
           )}
