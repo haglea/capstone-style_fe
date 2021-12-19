@@ -47,9 +47,6 @@ const MyComments = ({ auth, item, comments, getComments, addComment }) => {
       <ListGroup className="mb-3">
         {comments ? (
           comments.comments
-            .sort((a, b) =>
-              compareDesc(parseISO(a.updatedAt), parseISO(b.updatedAt))
-            )
             .map((comment) => (
               <ListGroup.Item key={comment._id}>
                 {comment.comment}{" "}
