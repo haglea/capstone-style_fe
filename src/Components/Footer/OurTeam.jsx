@@ -30,7 +30,7 @@ const OurTeam = () => {
               className="my-2"
             >
               <Card.Body>
-                <img variant="top" src="./profile_picture_Lea.jpg" />
+                <img variant="top" src="./profile_picture_Lea.png" />
               </Card.Body>
             </Card>
           )}
