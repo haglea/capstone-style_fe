@@ -32,7 +32,7 @@ const MyComments = ({ auth, item, comments, getComments, addComment }) => {
   useEffect(() => {
     const fetchComments = async () => {
       setIsLoading(true);
-      let url = `${process.env.REACT_PROD_URL}items/${item._id}/comments`;
+      let url = `${process.env.REACT_APP_PROD_URL}items/${item._id}/comments`;
       await getComments(url);
       setIsLoading(false);
     };
